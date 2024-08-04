@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | RABINr";
+            document.title = "Portfolio | RABIN";
             $("#favicon").attr("href", "assets/images/favicon.jpg");
         }
         else {
@@ -77,6 +77,8 @@ var typed = new Typed(".typing-text", {
     backSpeed: 30,
     backDelay: 500,
 });
+// <!-- typed js effect starts -->
+
 // <!-- typed js effect ends -->
 
 async function fetchData(type = "skills") {
